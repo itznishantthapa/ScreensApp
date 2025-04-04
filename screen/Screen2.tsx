@@ -15,9 +15,7 @@ const Screen2 = ({navigation}) => {
 
 
     const handleSubmit=()=>{
-        console.log('Email: ',email, 'And', ' Password: ',password)
-        setemail('')
-        setpassword('')
+       navigation.navigate('Screen3')
     }
 
 
